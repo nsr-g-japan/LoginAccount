@@ -102,7 +102,7 @@ MICROSOFT = {
     "app_secret": "d1e80bd3-838c-4aae-984e-7c076b9d2b91",
     "redirect": "http://localhost:8000/landingpage",
     "scopes": ["user.read"],
-    "authority": "https://login.microsoftonline.com/05f00303-5336-44d6-863e-165186fcbdef",  # or using tenant "https://login.microsoftonline.com/{tenant}",
+    "authority": "https://login.microsoftonline.com/common",  # or using tenant "https://login.microsoftonline.com/{tenant}",
     "valid_email_domains": ["<list_of_valid_domains>"],
     "logout_uri": "http://localhost:8000/admin/logout"
 }

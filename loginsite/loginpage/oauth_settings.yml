@@ -5,4 +5,5 @@ scopes:
   - user.read
   - mailboxsettings.read
   - calendars.readwrite
-authority: "https://login.microsoftonline.com/05f00303-5336-44d6-863e-165186fcbdef"
+  - https://management.azure.com/user_impersonation
+authority: "https://login.microsoftonline.com/common"
